@@ -1,5 +1,9 @@
 import 'package:get_it/get_it.dart';
+import 'package:injectable/injectable.dart';
 
-final GetIt service = GetIt.I;
+import 'service.config.dart';
 
-Future<void> initServices() async {}
+final GetIt service = GetIt.instance;
+
+@InjectableInit(initializerName: 'dev')
+void initServices() => service.dev();
