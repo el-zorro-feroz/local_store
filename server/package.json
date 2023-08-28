@@ -9,15 +9,16 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.12.5",
-    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/plugin-documentation": "^4.12.5",
     "@strapi/plugin-i18n": "4.12.5",
-    "better-sqlite3": "8.5.0"
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/strapi": "4.12.5",
+    "better-sqlite3": "8.5.0",
+    "sharp": "^0.32.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "pocket-red-fox"
   },
   "strapi": {
     "uuid": "cae61f67-6c41-4eb7-a1c8-c245ade5997f"
@@ -26,5 +27,5 @@
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
